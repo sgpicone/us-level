@@ -3,7 +3,7 @@ const Win = window;
 const doc = document;
 const documentElement = document.documentElement;
 const firstElement = doc.head;
-const newElement = 名 => doc.createElement(名);
+const newElement = name => doc.createElement(name);
 const newImage = _ => new Image();
 const addEventMonitor = (element, event, callback) => element[`on${event}`] = callback;// element.addEventListener(event,callback);
 const getElementPosition = element => element.getBoundingClientRect();
